@@ -50,3 +50,13 @@ Make sure you have Docker and Docker Compose installed on your machine.
     ```
 
 ## 📁 Project Structure
+/polling-app
+|-- /backend
+|   |-- app.py
+|   |-- requirements.txt
+|   -- Dockerfile |-- /frontend |   |-- /public |   |   -- index.html
+|   |-- /src
+|   |   |-- App.css
+|   |   |-- App.js
+|   |   -- index.js |   |-- default.conf |   |-- package.json |   -- Dockerfile
+`-- docker-compose.yml
